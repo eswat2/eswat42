@@ -11,7 +11,7 @@
     "url": "https://github.com/eswat2/eswat42.git"
   },
   "scripts": {
-    "prepublish": "yarn build",
+    "prepare": "yarn build",
     "build": "node build.js",
     "dev": "yarn build && node ./bin/card.js",
     "deploy": "yarn publish",
