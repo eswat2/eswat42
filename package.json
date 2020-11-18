@@ -36,6 +36,6 @@
   "devDependencies": {
     "boxen": "4.2.0",
     "chalk": "4.1.0",
-    "standard": "16.0.2"
+    "standard": "16.0.3"
   }
 }
