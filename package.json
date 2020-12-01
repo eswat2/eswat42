@@ -14,7 +14,7 @@
     "prepare": "yarn build",
     "build": "node build.js",
     "dev": "yarn build && node ./bin/card.js",
-    "deploy": "yarn publish",
+    "deploy": "yarn publish --patch",
     "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1",
     "open": "npx eswat42"
