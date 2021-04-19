@@ -24,6 +24,7 @@ const tags = [
   "linkedin",
   "code",
   "domains",
+  "quote",
   "web",
   "apps",
 ]
@@ -40,44 +41,12 @@ const socialData = tags.reduce((obj, tag) => {
 //
 // NOTE:  you push your specific data into the socialData arrays...
 //
-socialData.work.push(chalk.white("Portfolio Technical Architect - UI/UX"))
-socialData.work.push(chalk.white("Lead Technical Architect - UI"))
-socialData.work.push(chalk.white("Lead Software Engineer - UI"))
 socialData.work.push(chalk.white("UX/UI Engineering"))
-socialData.gmail.push(chalk.cyan("eswat2") + chalk.gray("@gmail.com"))
-socialData.gmail.push(chalk.cyan("eswat42") + chalk.gray("@gmail.com"))
-socialData.twitter.push(
-  chalk.gray("https://twitter.com/") + chalk.cyan("eswat2")
-)
-socialData.npm.push(chalk.gray("https://npmjs.com/~") + chalk.cyan("eswat2"))
-socialData.github.push(chalk.gray("https://github.com/") + chalk.cyan("eswat2"))
-socialData.github.push(
-  chalk.gray("https://") + chalk.cyan("eswat2") + chalk.gray(".github.io")
-)
+socialData.github.push(chalk.gray("https://github.com/") + chalk.cyan("eswat42"))
 
-socialData.domains.push(chalk.green("eswat2.dev"))
 socialData.domains.push(chalk.green("eswat42.dev"))
-socialData.domains.push(chalk.green("richardhess.dev"))
 
-socialData.code.push(
-  chalk.gray("https://codesandbox.io/u/") + chalk.cyan("eswat2")
-)
-socialData.linkedin.push(
-  chalk.gray("https://www.linkedin.com/in/") + chalk.cyan("eswat")
-)
-socialData.apps.push(chalk.magenta("https://eswat2.github.io/CRA-Social-Icons"))
-socialData.apps.push(chalk.magenta("https://eswat2.github.io/auto-gql"))
-socialData.apps.push(chalk.magenta("https://eswat2.github.io/git-notes"))
-socialData.apps.push(chalk.magenta("https://fire-notes.herokuapp.com"))
-socialData.apps.push(chalk.magenta("https://funnel-r3t.eswat2.vercel.app"))
-socialData.apps.push(chalk.magenta("https://funnel-s4e.eswat2.vercel.app"))
-socialData.apps.push(chalk.magenta("https://funnel-vue.eswat2.vercel.app"))
-socialData.apps.push(chalk.magenta("https://gt-sports.eswat2.vercel.app"))
-socialData.apps.push(chalk.magenta("https://s4e-autos.eswat2.vercel.app"))
-socialData.apps.push(chalk.magenta("https://s4e-ikon-proofs.eswat2.vercel.app"))
-socialData.apps.push(chalk.magenta("https://s4e-proofs.eswat2.vercel.app"))
-socialData.apps.push(chalk.magenta("https://wc-funnel.vercel.app"))
-socialData.apps.push(chalk.magenta("https://wc-proofs.vercel.app"))
+socialData.quote.push(chalk.yellow.italic("It depends on the appetite of the whale..."))
 
 const data = {
   name: chalk.white.bold("Richard Hess"),
@@ -88,6 +57,7 @@ const data = {
     apps: chalk.white.bold("        apps:"),
     card: chalk.white.bold("        Card:"),
     code: chalk.white.bold("      Coding:"),
+    quote: chalk.white.bold("       Quote:"),
     domains: chalk.white.bold("     Domains:"),
     github: chalk.white.bold("      GitHub:"),
     gmail: chalk.white.bold("       Gmail:"),
