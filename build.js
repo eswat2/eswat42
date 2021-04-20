@@ -59,6 +59,7 @@ socialData.domains.push(chalk.green("eswat42.dev"))
 
 socialData.quote.push(chalk.yellow.italic("It depends on the appetite of the whale..."))
 
+socialData.tech.push(chalk.green("Web Components"))
 socialData.tech.push(chalk.green("TypeScript"))
 socialData.tech.push(chalk.green("JavaScript"))
 socialData.tech.push(chalk.green("SVG"))
