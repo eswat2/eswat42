@@ -28,6 +28,7 @@ const tags = [
   "code",
   "domains",
   "quote",
+  "patterns",
   "tech",
   "web",
   "apps",
@@ -49,24 +50,29 @@ socialData.field.push(chalk.white("UI & UX"))
 
 socialData.roles.push(chalk.green("Advocate"))
 socialData.roles.push(chalk.green("Architect"))
+socialData.roles.push(chalk.green("Engineer"))
+socialData.roles.push(chalk.green("Evangelist"))
 socialData.roles.push(chalk.green("Explorer"))
 socialData.roles.push(chalk.green("Mentor"))
+socialData.roles.push(chalk.green("Programmer"))
 
-socialData.company.push(chalk.white("deepImpact..."))
+socialData.company.push(chalk.white.italic("deepImpact..."))
 socialData.github.push(chalk.gray("https://github.com/") + chalk.cyan("eswat42"))
 
 socialData.domains.push(chalk.green("eswat42.dev"))
 
 socialData.quote.push(chalk.yellow.italic("It depends on the appetite of the whale..."))
 
+socialData.patterns.push(chalk.green("Micro-Frontends"))
+
 socialData.tech.push(chalk.green("Web Components"))
-socialData.tech.push(chalk.green("TypeScript"))
-socialData.tech.push(chalk.green("JavaScript"))
-socialData.tech.push(chalk.green("SVG"))
 socialData.tech.push(chalk.green("Stencil"))
 socialData.tech.push(chalk.green("Svelte"))
 socialData.tech.push(chalk.green("Vue"))
 socialData.tech.push(chalk.green("React"))
+socialData.tech.push(chalk.green("SVG"))
+socialData.tech.push(chalk.green("GraphQL"))
+socialData.tech.push(chalk.green("Node"))
 
 const data = {
   name: chalk.white.bold("Richard Hess"),
@@ -87,6 +93,7 @@ const data = {
     npm: chalk.white.bold("         npm:"),
     oss: chalk.white.bold(" Open Source:"),
     pad: chalk.white.bold("             "),
+    patterns: chalk.white.bold("    Patterns:"),
     roles: chalk.white.bold("       Roles:"),
     tech: chalk.white.bold("  Technology:"),
     twitter: chalk.white.bold("     Twitter:"),

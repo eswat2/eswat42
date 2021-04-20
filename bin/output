@@ -6,20 +6,24 @@
 [32m   │   [37m[1m       Field:[22m[39m[32m  [37mUI & UX[39m[32m                                      │[39m
 [32m   │   [37m[1m       Roles:[22m[39m[32m  [32mAdvocate[39m[32m                                     │[39m
 [32m   │   [37m[1m             [22m[39m[32m  [32mArchitect[39m[32m                                    │[39m
+[32m   │   [37m[1m             [22m[39m[32m  [32mEngineer[39m[32m                                     │[39m
+[32m   │   [37m[1m             [22m[39m[32m  [32mEvangelist[39m[32m                                   │[39m
 [32m   │   [37m[1m             [22m[39m[32m  [32mExplorer[39m[32m                                     │[39m
 [32m   │   [37m[1m             [22m[39m[32m  [32mMentor[39m[32m                                       │[39m
-[32m   │   [37m[1m     Company:[22m[39m[32m  [37mdeepImpact...[39m[32m                                │[39m
+[32m   │   [37m[1m             [22m[39m[32m  [32mProgrammer[39m[32m                                   │[39m
+[32m   │   [37m[1m     Company:[22m[39m[32m  [37m[3mdeepImpact...[23m[39m[32m                                │[39m
 [32m   │   [37m[1m      GitHub:[22m[39m[32m  [90mhttps://github.com/[39m[32m[36meswat42[39m[32m                   │[39m
 [32m   │   [37m[1m     Domains:[22m[39m[32m  [32meswat42.dev[39m[32m                                  │[39m
 [32m   │   [37m[1m       Quote:[22m[39m[32m  [33m[3mIt depends on the appetite of the whale...[23m[39m[32m   │[39m
+[32m   │   [37m[1m    Patterns:[22m[39m[32m  [32mMicro-Frontends[39m[32m                              │[39m
 [32m   │   [37m[1m  Technology:[22m[39m[32m  [32mWeb Components[39m[32m                               │[39m
-[32m   │   [37m[1m             [22m[39m[32m  [32mTypeScript[39m[32m                                   │[39m
-[32m   │   [37m[1m             [22m[39m[32m  [32mJavaScript[39m[32m                                   │[39m
-[32m   │   [37m[1m             [22m[39m[32m  [32mSVG[39m[32m                                          │[39m
 [32m   │   [37m[1m             [22m[39m[32m  [32mStencil[39m[32m                                      │[39m
 [32m   │   [37m[1m             [22m[39m[32m  [32mSvelte[39m[32m                                       │[39m
 [32m   │   [37m[1m             [22m[39m[32m  [32mVue[39m[32m                                          │[39m
 [32m   │   [37m[1m             [22m[39m[32m  [32mReact[39m[32m                                        │[39m
+[32m   │   [37m[1m             [22m[39m[32m  [32mSVG[39m[32m                                          │[39m
+[32m   │   [37m[1m             [22m[39m[32m  [32mGraphQL[39m[32m                                      │[39m
+[32m   │   [37m[1m             [22m[39m[32m  [32mNode[39m[32m                                         │[39m
 [32m   │                                                               │[39m
 [32m   │   [37m[1m        Card:[22m[39m[32m  [90mnpx[39m[32m [36meswat42[39m[32m                                  │[39m
 [32m   │                                                               │[39m
