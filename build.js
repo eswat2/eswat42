@@ -15,7 +15,10 @@ const boxOptions = {
 
 // NOTE:  the order of these define the order they are printed in the card...
 const tags = [
+  "field",
+  "roles",
   "work",
+  "company",
   "oss",
   "gmail",
   "twitter",
@@ -25,6 +28,7 @@ const tags = [
   "code",
   "domains",
   "quote",
+  "tech",
   "web",
   "apps",
 ]
@@ -41,12 +45,27 @@ const socialData = tags.reduce((obj, tag) => {
 //
 // NOTE:  you push your specific data into the socialData arrays...
 //
-socialData.work.push(chalk.white("UX/UI Engineering"))
+socialData.field.push(chalk.white("UI & UX"))
+
+socialData.roles.push(chalk.green("Advocate"))
+socialData.roles.push(chalk.green("Architect"))
+socialData.roles.push(chalk.green("Explorer"))
+socialData.roles.push(chalk.green("Mentor"))
+
+socialData.company.push(chalk.white("deepImpact..."))
 socialData.github.push(chalk.gray("https://github.com/") + chalk.cyan("eswat42"))
 
 socialData.domains.push(chalk.green("eswat42.dev"))
 
 socialData.quote.push(chalk.yellow.italic("It depends on the appetite of the whale..."))
+
+socialData.tech.push(chalk.green("TypeScript"))
+socialData.tech.push(chalk.green("JavaScript"))
+socialData.tech.push(chalk.green("SVG"))
+socialData.tech.push(chalk.green("Stencil"))
+socialData.tech.push(chalk.green("Svelte"))
+socialData.tech.push(chalk.green("Vue"))
+socialData.tech.push(chalk.green("React"))
 
 const data = {
   name: chalk.white.bold("Richard Hess"),
@@ -57,6 +76,8 @@ const data = {
     apps: chalk.white.bold("        apps:"),
     card: chalk.white.bold("        Card:"),
     code: chalk.white.bold("      Coding:"),
+    company: chalk.white.bold("     Company:"),
+    field: chalk.white.bold("       Field:"),
     quote: chalk.white.bold("       Quote:"),
     domains: chalk.white.bold("     Domains:"),
     github: chalk.white.bold("      GitHub:"),
@@ -65,6 +86,8 @@ const data = {
     npm: chalk.white.bold("         npm:"),
     oss: chalk.white.bold(" Open Source:"),
     pad: chalk.white.bold("             "),
+    roles: chalk.white.bold("       Roles:"),
+    tech: chalk.white.bold("  Technology:"),
     twitter: chalk.white.bold("     Twitter:"),
     web: chalk.white.bold("         Web:"),
     work: chalk.white.bold("        Work:"),
