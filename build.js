@@ -28,6 +28,7 @@ const tags = [
   "code",
   "domains",
   "quote",
+  "lang",
   "patterns",
   "tech",
   "web",
@@ -65,6 +66,9 @@ socialData.quote.push(chalk.yellow.italic("It depends on the appetite of the wha
 
 socialData.patterns.push(chalk.green("Micro-Frontends"))
 
+socialData.lang.push(chalk.green("JavaScript, es6"))
+socialData.lang.push(chalk.green("TypeScript"))
+
 socialData.tech.push(chalk.green("Web Components"))
 socialData.tech.push(chalk.green("Stencil"))
 socialData.tech.push(chalk.green("Svelte"))
@@ -85,15 +89,16 @@ const data = {
     code: chalk.white.bold("      Coding:"),
     company: chalk.white.bold("     Company:"),
     field: chalk.white.bold("       Field:"),
-    quote: chalk.white.bold("       Quote:"),
     domains: chalk.white.bold("     Domains:"),
     github: chalk.white.bold("      GitHub:"),
     gmail: chalk.white.bold("       Gmail:"),
+    lang: chalk.white.bold("   Languages:"),
     linkedin: chalk.white.bold("    LinkedIn:"),
     npm: chalk.white.bold("         npm:"),
     oss: chalk.white.bold(" Open Source:"),
     pad: chalk.white.bold("             "),
     patterns: chalk.white.bold("    Patterns:"),
+    quote: chalk.white.bold("       Quote:"),
     roles: chalk.white.bold("       Roles:"),
     tech: chalk.white.bold("  Technology:"),
     twitter: chalk.white.bold("     Twitter:"),
