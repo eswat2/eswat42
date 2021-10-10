@@ -1,6 +1,6 @@
 {
   "name": "eswat42",
-  "version": "2.1.62",
+  "version": "2.1.63",
   "description": "A personal card for Richard Hess (@eswat42)",
   "main": "/bin/card.js",
   "bin": {
@@ -34,7 +34,7 @@
     "bin/output"
   ],
   "devDependencies": {
-    "boxen": "6.2.0",
+    "boxen": "5.1.2",
     "chalk": "4.1.2",
     "standard": "16.0.4"
   }
