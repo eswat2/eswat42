@@ -35,7 +35,7 @@
   ],
   "devDependencies": {
     "boxen": "6.2.1",
-    "chalk": "5.0.1",
+    "picocolors": "1.0.0",
     "standard": "17.0.0"
   }
 }

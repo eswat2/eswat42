@@ -1,5 +1,5 @@
-import chalk from "chalk"
 import boxen from "boxen"
+import pico from "picocolors"
 
 import fs from 'fs'
 import path from 'path'
@@ -41,70 +41,70 @@ const socialData = tags.reduce((obj, tag) => {
   return obj
 }, {})
 
-// Text + chalk definitions
-//   oss: chalk.white('Node.js Community Committee ') + chalk.green('⬢'),
-//   web: chalk.cyan('https://bnb.im'),
+// Text + pico definitions
+//   oss: pico.white('Node.js Community Committee ') + pico.green('⬢'),
+//   web: pico.cyan('https://bnb.im'),
 //
 // NOTE:  you push your specific data into the socialData arrays...
 //
-socialData.field.push(chalk.white("UI & UX"))
+socialData.field.push(pico.white("UI & UX"))
 
-socialData.roles.push(chalk.green("Advocate"))
-socialData.roles.push(chalk.green("Architect"))
-socialData.roles.push(chalk.green("Engineer"))
-socialData.roles.push(chalk.green("Evangelist"))
-socialData.roles.push(chalk.green("Explorer"))
-socialData.roles.push(chalk.green("Mentor"))
-socialData.roles.push(chalk.green("Programmer"))
+socialData.roles.push(pico.green("Advocate"))
+socialData.roles.push(pico.green("Architect"))
+socialData.roles.push(pico.green("Engineer"))
+socialData.roles.push(pico.green("Evangelist"))
+socialData.roles.push(pico.green("Explorer"))
+socialData.roles.push(pico.green("Mentor"))
+socialData.roles.push(pico.green("Programmer"))
 
-socialData.company.push(chalk.white.italic("deepImpact..."))
-socialData.github.push(chalk.gray("https://github.com/") + chalk.cyan("eswat42"))
+socialData.company.push(pico.white(pico.italic("deepImpact...")))
+socialData.github.push(pico.gray("https://github.com/") + pico.cyan("eswat42"))
 
-socialData.domains.push(chalk.green("eswat42.dev"))
+socialData.domains.push(pico.green("eswat42.dev"))
 
-socialData.quote.push(chalk.yellow.italic("It depends on the appetite of the whale..."))
+socialData.quote.push(pico.yellow(pico.italic("It depends on the appetite of the whale...")))
 
-socialData.patterns.push(chalk.green("Micro-Frontends"))
+socialData.patterns.push(pico.green("Micro-Frontends"))
 
-socialData.lang.push(chalk.green("JavaScript, es6"))
-socialData.lang.push(chalk.green("TypeScript"))
+socialData.lang.push(pico.green("JavaScript, es6"))
+socialData.lang.push(pico.green("TypeScript"))
 
-socialData.tech.push(chalk.green("Web Components"))
-socialData.tech.push(chalk.green("Stencil"))
-socialData.tech.push(chalk.green("Svelte"))
-socialData.tech.push(chalk.green("Solid"))
-socialData.tech.push(chalk.green("Vue"))
-socialData.tech.push(chalk.green("React"))
-socialData.tech.push(chalk.green("SVG"))
-socialData.tech.push(chalk.green("GraphQL"))
-socialData.tech.push(chalk.green("Node"))
+socialData.tech.push(pico.green("Web Components"))
+socialData.tech.push(pico.green("Stencil"))
+socialData.tech.push(pico.green("Svelte"))
+socialData.tech.push(pico.green("Solid"))
+socialData.tech.push(pico.green("Vue"))
+socialData.tech.push(pico.green("React"))
+socialData.tech.push(pico.green("SVG"))
+socialData.tech.push(pico.green("GraphQL"))
+socialData.tech.push(pico.green("Node"))
 
 const data = {
-  name: chalk.white.bold("Richard Hess"),
-  handle: chalk.cyan("eswat42"),
-  npx: chalk.gray("npx") + " " + chalk.cyan("eswat42"),
+  name: pico.white(pico.bold("Richard Hess")),
+  handle: pico.cyan("eswat42"),
+  npx: pico.gray("npx") + " " + pico.cyan("eswat42"),
   social: socialData,
   labels: {
-    apps: chalk.white.bold("        apps:"),
-    card: chalk.white.bold("        Card:"),
-    code: chalk.white.bold("      Coding:"),
-    company: chalk.white.bold("     Company:"),
-    field: chalk.white.bold("       Field:"),
-    domains: chalk.white.bold("     Domains:"),
-    github: chalk.white.bold("      GitHub:"),
-    gmail: chalk.white.bold("       Gmail:"),
-    lang: chalk.white.bold("   Languages:"),
-    linkedin: chalk.white.bold("    LinkedIn:"),
-    npm: chalk.white.bold("         npm:"),
-    oss: chalk.white.bold(" Open Source:"),
-    pad: chalk.white.bold("             "),
-    patterns: chalk.white.bold("    Patterns:"),
-    quote: chalk.white.bold("       Quote:"),
-    roles: chalk.white.bold("       Roles:"),
-    tech: chalk.white.bold("  Technology:"),
-    twitter: chalk.white.bold("     Twitter:"),
-    web: chalk.white.bold("         Web:"),
-    work: chalk.white.bold("        Work:"),
+    apps: pico.white(pico.bold("        apps:")),
+    card: pico.white(pico.bold("        Card:")),
+    code: pico.white(pico.bold("      Coding:")),
+    company: pico.white(pico.bold("     Company:")),
+    field: pico.white(pico.bold("       Field:")),
+    domains: pico.white(pico.bold("     Domains:")),
+    github: pico.white(pico.bold("      GitHub:")),
+    gmail: pico.white(pico.bold("       Gmail:")),
+    lang: pico.white(pico.bold("   Languages:")),
+    linkedin: pico.white(pico.bold("    LinkedIn:")),
+    npm: pico.white(pico.bold("         npm:")),
+    oss: pico.white(pico.bold(" Open Source:")),
+    pad: pico.white(pico.bold("             ")),
+    patterns: pico.white(pico.bold("    Patterns:")),
+    quote: pico.white(pico.bold("       Quote:")),
+    roles: pico.white(pico.bold("       Roles:")),
+    tech: pico.white(pico.bold("  Technology:")),
+    twitter: pico.white(pico.bold("     Twitter:")),
+    web: pico.white(pico.bold("         Web:")),
+    work: pico.white(pico.bold("        Work:")),
   },
 }
 
@@ -145,5 +145,5 @@ const output =
 
 fs.writeFileSync(
   path.join(__dirname, "bin/output"),
-  chalk.green(boxen(output, boxOptions))
+  pico.green(boxen(output, boxOptions))
 )
