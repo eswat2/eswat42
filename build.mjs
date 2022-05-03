@@ -1,12 +1,16 @@
 import boxen from "boxen"
 import pico from "picocolors"
 
-import fs from 'fs'
-import path from 'path'
+import fs from "fs"
+import path from "path"
 
-const __dirname = path.resolve();
+const __dirname = path.resolve()
 
 const { white, green, gray, yellow, cyan, bold, italic } = pico.createColors()
+
+const whiteBold = (label) => white(bold(label))
+const whiteItalic = (label) => white(italic(label))
+const yellowItalic = (label) => yellow(italic(label))
 
 // Define options for Boxen
 const boxOptions = {
@@ -59,12 +63,14 @@ socialData.roles.push(green("Explorer"))
 socialData.roles.push(green("Mentor"))
 socialData.roles.push(green("Programmer"))
 
-socialData.company.push(white(italic("deepImpact...")))
+socialData.company.push(whiteItalic("deepImpact..."))
 socialData.github.push(gray("https://github.com/") + cyan("eswat42"))
 
 socialData.domains.push(green("eswat42.dev"))
 
-socialData.quote.push(yellow(italic("It depends on the appetite of the whale...")))
+socialData.quote.push(
+  yellowItalic("It depends on the appetite of the whale...")
+)
 
 socialData.patterns.push(green("Micro-Frontends"))
 
@@ -82,31 +88,31 @@ socialData.tech.push(green("GraphQL"))
 socialData.tech.push(green("Node"))
 
 const data = {
-  name: white(bold("Richard Hess")),
+  name: whiteBold("Richard Hess"),
   handle: cyan("eswat42"),
   npx: gray("npx") + " " + cyan("eswat42"),
   social: socialData,
   labels: {
-    apps: white(bold("        apps:")),
-    card: white(bold("        Card:")),
-    code: white(bold("      Coding:")),
-    company: white(bold("     Company:")),
-    field: white(bold("       Field:")),
-    domains: white(bold("     Domains:")),
-    github: white(bold("      GitHub:")),
-    gmail: white(bold("       Gmail:")),
-    lang: white(bold("   Languages:")),
-    linkedin: white(bold("    LinkedIn:")),
-    npm: white(bold("         npm:")),
-    oss: white(bold(" Open Source:")),
-    pad: white(bold("             ")),
-    patterns: white(bold("    Patterns:")),
-    quote: white(bold("       Quote:")),
-    roles: white(bold("       Roles:")),
-    tech: white(bold("  Technology:")),
-    twitter: white(bold("     Twitter:")),
-    web: white(bold("         Web:")),
-    work: white(bold("        Work:")),
+    apps: whiteBold("        apps:"),
+    card: whiteBold("        Card:"),
+    code: whiteBold("      Coding:"),
+    company: whiteBold("     Company:"),
+    field: whiteBold("       Field:"),
+    domains: whiteBold("     Domains:"),
+    github: whiteBold("      GitHub:"),
+    gmail: whiteBold("       Gmail:"),
+    lang: whiteBold("   Languages:"),
+    linkedin: whiteBold("    LinkedIn:"),
+    npm: whiteBold("         npm:"),
+    oss: whiteBold(" Open Source:"),
+    pad: whiteBold("             "),
+    patterns: whiteBold("    Patterns:"),
+    quote: whiteBold("       Quote:"),
+    roles: whiteBold("       Roles:"),
+    tech: whiteBold("  Technology:"),
+    twitter: whiteBold("     Twitter:"),
+    web: whiteBold("         Web:"),
+    work: whiteBold("        Work:"),
   },
 }
 
