@@ -8,6 +8,7 @@ const __dirname = path.resolve()
 
 const { white, green, gray, yellow, cyan, bold, italic } = pico.createColors()
 
+const grayItalic = (label) => gray(italic(label))
 const whiteBold = (label) => white(bold(label))
 const whiteItalic = (label) => white(italic(label))
 const yellowItalic = (label) => yellow(italic(label))
@@ -72,12 +73,12 @@ socialData.quote.push(
   yellowItalic("It depends on the appetite of the whale...")
 )
 
-socialData.patterns.push(green("Micro-Frontends"))
-
 socialData.lang.push(green("JavaScript, es6"))
 socialData.lang.push(green("TypeScript"))
 
-socialData.tech.push(green("Web Components"))
+socialData.patterns.push(grayItalic("Micro-Frontends"))
+
+socialData.tech.push(grayItalic("Web Components"))
 socialData.tech.push(green("Stencil"))
 socialData.tech.push(green("Svelte"))
 socialData.tech.push(green("Solid"))

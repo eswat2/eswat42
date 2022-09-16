@@ -17,8 +17,8 @@
    │   [37m[1m       Quote:[22m[32m  [33m[3mIt depends on the appetite of the whale...[23m[32m   │
    │   [37m[1m   Languages:[22m[32m  [32mJavaScript, es6[32m                              │
    │   [37m[1m             [22m[32m  [32mTypeScript[32m                                   │
-   │   [37m[1m    Patterns:[22m[32m  [32mMicro-Frontends[32m                              │
-   │   [37m[1m  Technology:[22m[32m  [32mWeb Components[32m                               │
+   │   [37m[1m    Patterns:[22m[32m  [90m[3mMicro-Frontends[23m[32m                              │
+   │   [37m[1m  Technology:[22m[32m  [90m[3mWeb Components[23m[32m                               │
    │   [37m[1m             [22m[32m  [32mStencil[32m                                      │
    │   [37m[1m             [22m[32m  [32mSvelte[32m                                       │
    │   [37m[1m             [22m[32m  [32mSolid[32m                                        │
