@@ -9,7 +9,7 @@ Experienced software developer with a passion for creating User Interfaces (_Ato
 my npx business card:
 
 ```
-npx eswat42
+npx eswat42@latest
 ```
 
 [![npm version](https://badge.fury.io/js/eswat42.svg)](//npmjs.com/package/eswat42)
