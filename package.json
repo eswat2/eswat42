@@ -14,6 +14,7 @@
     "prepare": "yarn build",
     "build": "node build.mjs",
     "dev": "yarn build && node ./bin/card.js",
+    "predeploy": "yarn dev",
     "deploy": "yarn publish --patch",
     "lint": "standard",
     "test": "echo \"Error: no test specified\" && exit 1",

@@ -5,7 +5,16 @@
   // language - current active spelling language
   "language": "en",
   // words - list of words to be always considered correct
-  "words": ["clrs", "eswat", "frontends", "linkedin", "pico", "picocolors"],
+  "words": [
+    "clrs", 
+    "eswat", 
+    "frontends", 
+    "linkedin", 
+    "pico", 
+    "picocolors",
+    "predeploy",
+    "richardhess"
+  ],
   "ignorePaths": [
     "cSpell.json",
     "dist/**",
