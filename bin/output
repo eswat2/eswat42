@@ -20,6 +20,9 @@
    │   [37m[1m    Patterns:[22m[32m  [90m[3mMicro-Frontends[23m[32m                              │
    │   [37m[1m  Technology:[22m[32m  [90m[3mWeb Components[23m[32m                               │
    │   [37m[1m             [22m[32m  [32mStencil[32m                                      │
+   │   [37m[1m             [22m[32m  [32mLit[32m                                          │
+   │   [37m[1m             [22m[32m  [32muCE[32m                                          │
+   │   [37m[1m             [22m[32m  [32mPreact+Signals[32m                               │
    │   [37m[1m             [22m[32m  [32mSvelte[32m                                       │
    │   [37m[1m             [22m[32m  [32mSolid[32m                                        │
    │   [37m[1m             [22m[32m  [32mVue[32m                                          │

@@ -80,6 +80,9 @@ socialData.patterns.push(grayItalic("Micro-Frontends"))
 
 socialData.tech.push(grayItalic("Web Components"))
 socialData.tech.push(green("Stencil"))
+socialData.tech.push(green("Lit"))
+socialData.tech.push(green("uCE"))
+socialData.tech.push(green("Preact+Signals"))
 socialData.tech.push(green("Svelte"))
 socialData.tech.push(green("Solid"))
 socialData.tech.push(green("Vue"))
@@ -104,6 +107,7 @@ const data = {
     gmail: whiteBold("       Gmail:"),
     lang: whiteBold("   Languages:"),
     linkedin: whiteBold("    LinkedIn:"),
+    mastodon: whiteBold("    Mastodon:"),
     npm: whiteBold("         npm:"),
     oss: whiteBold(" Open Source:"),
     pad: whiteBold("             "),
