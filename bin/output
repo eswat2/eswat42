@@ -3,24 +3,24 @@
    │                                                               │
    │   [37m[1mRichard Hess[22m[32m - [36meswat42[32m                                      │
    │                                                               │
-   │   [37m[1m       field:[22m[32m  [37mUI & UX[32m                                      │
-   │   [37m[1m       roles:[22m[32m  [32mAdvocate[32m                                     │
-   │   [37m[1m             [22m[32m  [32mArchitect[32m                                    │
-   │   [37m[1m             [22m[32m  [32mEngineer[32m                                     │
-   │   [37m[1m             [22m[32m  [32mEvangelist[32m                                   │
-   │   [37m[1m             [22m[32m  [32mExplorer[32m                                     │
-   │   [37m[1m             [22m[32m  [32mMentor[32m                                       │
-   │   [37m[1m             [22m[32m  [32mProblem Solver[32m                               │
-   │   [37m[1m             [22m[32m  [32mProgrammer[32m                                   │
-   │   [37m[1m             [22m[32m  [32mTinkerer[32m                                     │
+   │   [37m[1m       field:[22m[32m  [37m[1mUI & UX[22m[32m                                      │
+   │   [37m[1m       roles:[22m[32m  [90mAdvocate[32m                                     │
+   │   [37m[1m             [22m[32m  [37m[1mArchitect[22m[32m                                    │
+   │   [37m[1m             [22m[32m  [90mEngineer[32m                                     │
+   │   [37m[1m             [22m[32m  [90mEvangelist[32m                                   │
+   │   [37m[1m             [22m[32m  [90mExplorer[32m                                     │
+   │   [37m[1m             [22m[32m  [90mMentor[32m                                       │
+   │   [37m[1m             [22m[32m  [90mProblem Solver[32m                               │
+   │   [37m[1m             [22m[32m  [90mProgrammer[32m                                   │
+   │   [37m[1m             [22m[32m  [90mTinkerer[32m                                     │
    │   [37m[1m     company:[22m[32m  [37m[3mdeepImpact...[23m[32m                                │
    │   [37m[1m      gitHub:[22m[32m  [90mhttps://github.com/[32m[36meswat42[32m                   │
    │   [37m[1m     domains:[22m[32m  [32meswat42.dev[32m                                  │
    │   [37m[1m       quote:[22m[32m  [33m[3mIt depends on the appetite of the whale...[23m[32m   │
    │   [37m[1m   languages:[22m[32m  [32mJavaScript, es6[32m                              │
    │   [37m[1m             [22m[32m  [32mTypeScript[32m                                   │
-   │   [37m[1m    patterns:[22m[32m  [90m[3mMicro-Frontends[23m[32m                              │
-   │   [37m[1m  technology:[22m[32m  [90m[3mWeb Components[23m[32m                               │
+   │   [37m[1m    patterns:[22m[32m  [35m[3mMicro-Frontends[23m[32m                              │
+   │   [37m[1m  technology:[22m[32m  [35m[3mWeb Components[23m[32m                               │
    │   [37m[1m             [22m[32m  [32mStencil[32m                                      │
    │   [37m[1m             [22m[32m  [32mLit[32m                                          │
    │   [37m[1m             [22m[32m  [32muCE[32m                                          │

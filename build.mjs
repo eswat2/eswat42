@@ -6,9 +6,9 @@ import path from "path"
 
 const __dirname = path.resolve()
 
-const { white, green, gray, yellow, cyan, bold, italic } = pico.createColors()
+const { white, green, gray, yellow, cyan, magenta, bold, italic } = pico.createColors()
 
-const grayItalic = (label) => gray(italic(label))
+const magentaItalic = (label) => magenta(italic(label))
 const whiteBold = (label) => white(bold(label))
 const whiteItalic = (label) => white(italic(label))
 const yellowItalic = (label) => yellow(italic(label))
@@ -54,17 +54,17 @@ const socialData = tags.reduce((obj, tag) => {
 //
 // NOTE:  you push your specific data into the socialData arrays...
 //
-socialData.field.push(white("UI & UX"))
+socialData.field.push(whiteBold("UI & UX"))
 
-socialData.roles.push(green("Advocate"))
-socialData.roles.push(green("Architect"))
-socialData.roles.push(green("Engineer"))
-socialData.roles.push(green("Evangelist"))
-socialData.roles.push(green("Explorer"))
-socialData.roles.push(green("Mentor"))
-socialData.roles.push(green("Problem Solver"))
-socialData.roles.push(green("Programmer"))
-socialData.roles.push(green("Tinkerer"))
+socialData.roles.push(gray("Advocate"))
+socialData.roles.push(whiteBold("Architect"))
+socialData.roles.push(gray("Engineer"))
+socialData.roles.push(gray("Evangelist"))
+socialData.roles.push(gray("Explorer"))
+socialData.roles.push(gray("Mentor"))
+socialData.roles.push(gray("Problem Solver"))
+socialData.roles.push(gray("Programmer"))
+socialData.roles.push(gray("Tinkerer"))
 
 socialData.company.push(whiteItalic("deepImpact..."))
 socialData.github.push(gray("https://github.com/") + cyan("eswat42"))
@@ -78,9 +78,9 @@ socialData.quote.push(
 socialData.lang.push(green("JavaScript, es6"))
 socialData.lang.push(green("TypeScript"))
 
-socialData.patterns.push(grayItalic("Micro-Frontends"))
+socialData.patterns.push(magentaItalic("Micro-Frontends"))
 
-socialData.tech.push(grayItalic("Web Components"))
+socialData.tech.push(magentaItalic("Web Components"))
 socialData.tech.push(green("Stencil"))
 socialData.tech.push(green("Lit"))
 socialData.tech.push(green("uCE"))
