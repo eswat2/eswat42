@@ -64,6 +64,7 @@ socialData.roles.push(gray("Explorer"))
 socialData.roles.push(gray("Mentor"))
 socialData.roles.push(gray("Problem Solver"))
 socialData.roles.push(gray("Programmer"))
+socialData.roles.push(gray("Software Entomologist"))
 socialData.roles.push(gray("Tinkerer"))
 
 socialData.company.push(whiteItalic("deepImpact..."))
