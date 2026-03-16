@@ -5,7 +5,8 @@ import { red, green } from 'yoctocolors'
 export default defineConfig({
   // enable git operations by default if you like
   // commit can be true or a template string
-  commit: 'release v%s',   // e.g. "release v0.0.983"
+  // commit: 'release v%s',   // e.g. "release v0.0.983"
+  commit: true,
   tag: true,
   push: true,
 
