@@ -1,6 +1,6 @@
 {
   "name": "eswat42",
-  "version": "2.1.116",
+  "version": "2.1.117",
   "description": "A personal card for Richard Hess (@eswat42)",
   "main": "/bin/card.js",
   "bin": {
@@ -13,7 +13,7 @@
   "scripts": {
     "bump": "bumpp patch --commit --tag --push --yes",
     "card": "node ./bin/card.js",
-    "release": "pnpm bump && pnpm build && pnpm card && pnpm publish",
+    "release": "pnpm bump && pnpm build && pnpm card",
     "preinstall": "npx only-allow pnpm",
     "build": "node build.mjs",
     "dev": "pnpm build && pnpm card",
